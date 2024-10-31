@@ -1,0 +1,24 @@
+{
+  "name": "officegest/woocommerce",
+  "description": "Plugin for WooCommerce integration with OfficeGest",
+  "license": "GPL-3.0",
+  "type": "wordpress-plugin",
+  "authors": [
+    {
+      "name": "Helder Lopes",
+      "email": "helder.lopes@guisoft.net"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.1",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-mbstring": "*",
+    "php-curl-class/php-curl-class": "8.6.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "OfficeGest\\": "src"
+    }
+  }
+}
